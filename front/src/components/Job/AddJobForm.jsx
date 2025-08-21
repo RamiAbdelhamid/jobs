@@ -2,7 +2,7 @@
     import axios from "axios";
     import toast from "react-hot-toast";
     import { Asterisk } from 'lucide-react';
-    axios.defaults.baseURL = "http://localhost:3000";
+    axios.defaults.baseURL = "https://jobs-l5nc.onrender.com";
 
 function AddJobForm() {
     const [job, setJob] = useState({

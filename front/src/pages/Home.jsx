@@ -6,7 +6,7 @@ const JobsList = React.lazy(() => import("../components/Job/JobsList"));
 import { Suspense } from 'react';
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
-axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = "https://jobs-l5nc.onrender.com"; 
 function Home() {
   return (
     <div className="font-[Cairo]">

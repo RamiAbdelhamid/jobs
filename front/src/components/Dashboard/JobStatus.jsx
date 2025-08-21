@@ -2,7 +2,7 @@
 import axios from "axios";
 import toast from "react-hot-toast";
 
-    axios.defaults.baseURL = "http://localhost:3000";
+    axios.defaults.baseURL = "https://jobs-l5nc.onrender.com";
 function JobStatus({ jobId, status }) {
 
     //update job status
